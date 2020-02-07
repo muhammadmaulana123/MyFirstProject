@@ -19,6 +19,7 @@
         android:text="@string/bung_karno"
         android:textColor="@color/colorAccent"
         android:textSize="30dp" />
+<!--    ini view-->
 
 
     <ImageView
@@ -40,7 +41,7 @@
         android:text="@string/iseng" />
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/bt"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
