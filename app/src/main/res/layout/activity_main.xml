@@ -13,10 +13,10 @@
         android:id="@+id/txt1"
         android:layout_width="wrap_content"
         android:layout_height="59dp"
-        android:layout_gravity=""
+        android:layout_gravity="center_horizontal"
         android:layout_margin="75dp"
         android:layout_marginTop="50dp"
-        android:text="@string/salam"
+        android:text="@string/bung_karno"
         android:textColor="@color/colorAccent"
         android:textSize="30dp" />
 
@@ -39,5 +39,13 @@
         android:background="@color/colorPrimary"
         android:text="@string/iseng" />
 
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/ungu"
+        android:text="@string/iseng" />
 
 </LinearLayout>

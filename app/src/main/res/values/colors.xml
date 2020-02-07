@@ -3,5 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="putih">#ffffff</color>
+    <color name="ungu">#322064</color>
+    <color name="putih">#F6F6FD</color>
+
 </resources>
