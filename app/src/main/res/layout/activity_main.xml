@@ -12,7 +12,7 @@
     <TextView
         android:id="@+id/txt1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="59dp"
         android:layout_gravity=""
         android:layout_margin="75dp"
         android:layout_marginTop="50dp"
@@ -23,22 +23,21 @@
 
     <ImageView
         android:id="@+id/img"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:src="@drawable/bung_karno" />
 
     <Button
         android:id="@+id/btn"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/iseng"
-        android:background="@color/colorPrimary"
         android:layout_gravity="center"
-        />
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/iseng" />
 
 
 </LinearLayout>
