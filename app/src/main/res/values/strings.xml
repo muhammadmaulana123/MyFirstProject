@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyFirstProject</string>
+    <string name="Konten_Berita">
+        assalamualaikum
+        ini kinten berita yang baru
+        mau baca gak?
+        saya kaga
+    </string>
+    <string name="iseng">isinya iseng</string>
+    <string name="salam">Assalamualaikum</string>
+</resources>
