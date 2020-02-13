@@ -9,4 +9,23 @@
     <string name="iseng">isinya iseng</string>
     <string name="salam">Assalamualaikum</string>
     <string name="bung_karno">BUNG KARNO</string>
+    <string name="ktp1">
+        > KTP harus
+    </string>
+    <string name="ktp2">
+        > KTP harus tampak jelas
+    </string>
+    <string name="ktp3">
+        > KTP
+    </string>
+
+    <string name="ktpa">
+        terfoto sepenuhnya
+    </string>
+    <string name="ktpb">
+        (tidak buram)
+    </string>
+    <string name="ktpc">
+        masih berlaku
+    </string>
 </resources>

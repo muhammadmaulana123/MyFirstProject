@@ -9,27 +9,36 @@
     android:orientation="vertical">
 
 
+    <!--    ini view-->
+
+
     <TextView
         android:id="@+id/txt1"
         android:layout_width="wrap_content"
         android:layout_height="59dp"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="75dp"
-        android:layout_marginTop="50dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="30dp"
         android:text="@string/bung_karno"
         android:textColor="@color/colorAccent"
         android:textSize="30dp" />
-<!--    ini view-->
-
 
     <ImageView
         android:id="@+id/img"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_margin="70dp"
+        android:layout_marginTop="1dp"
         android:layout_marginBottom="5dp"
+        android:padding="10dp"
         android:src="@drawable/bung_karno" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
 
     <Button
         android:id="@+id/btn"
@@ -37,16 +46,23 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
         android:background="@color/colorPrimary"
-        android:text="@string/iseng" />
+        android:text="@string/iseng"
+        android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/bt"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@color/ungu"
-        android:text="@string/iseng" />
+
+        <Button
+            android:id="@+id/btn_keluar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Keluar"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
 
 </LinearLayout>
